@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.petersnoek.sondevoeding"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a04ed3d5-65a3-4ba7-a11a-6ad3bc5b0c54"
+      }
+    },
+    "owner": "petersnoek"
   }
 }
